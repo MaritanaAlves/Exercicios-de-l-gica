@@ -1,4 +1,5 @@
 ﻿using System.Globalization;
+
 public class AreaPerimeter
 {
     static void Main(string[] args)
@@ -13,6 +14,7 @@ public class AreaPerimeter
 
         Console.Write("The area of square: " + area + "m², perimeter: " + perimeter + "m.");   
     }
+
     public double CalculateArea(double side)
     {
         return side * side;

@@ -9,7 +9,8 @@ namespace _2_AreaPerimeterTests
         public void ShouldCalculateArea()
         {
             var areaPerimeter = new AreaPerimeter();
-            var result = areaPerimeter.CalculateArea(5);
+            var side = 5;
+            var result = areaPerimeter.CalculateArea(side);
 
             Assert.AreEqual(25, result);
         }
