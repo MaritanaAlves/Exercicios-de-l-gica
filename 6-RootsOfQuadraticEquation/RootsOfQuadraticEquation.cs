@@ -19,7 +19,7 @@
 
         var rootsOfQuadraticEquation = new RootsOfQuadraticEquation();
         int delta = rootsOfQuadraticEquation.CalculateDelta(a, b, c);
-        string roots = rootsOfQuadraticEquation.CalculateRootsOfQuadraticEquation(a, b, c, delta);
+        string roots = rootsOfQuadraticEquation.CalculateRootsOfQuadraticEquation(a, b, delta);
 
         Console.WriteLine(roots);
     }
@@ -29,7 +29,7 @@
         return (b * b) - (4 * a * c);
     }
 
-    public string CalculateRootsOfQuadraticEquation(int a, int b, int c, int delta)
+    public string CalculateRootsOfQuadraticEquation(int a, int b, int delta)
     {
         if (a == 0)
         {
